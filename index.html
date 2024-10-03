@@ -3,21 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
     <link rel="stylesheet" href="style.css">
-    <title>Dictionay App</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Dictionary App</h1>
-        <form id="word-form">
-            <input type="text" id="word-input" placeholder="Enter a word">
-            <button type="submit">Search</button>
-        </form>
-        <div id="word-definition"></div>
-        <div id="word-examples"></div>
-        <div id="word-synonyms"></div>
-    </div>
-    
-<script src="script.js"></script>
+    <form>
+        <h2>Dictionary App</h2>
+        <input type="text" id="wordInput" placeholder="Enter a word" required>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <div id="word-definition"></div>
+    <script src="script.js"></script>
 </body>
 </html>

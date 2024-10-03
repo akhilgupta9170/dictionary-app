@@ -1,44 +1,53 @@
-body{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
     margin: 0;
-    padding: 0%;
-
-}
-.container{
-    width: 80%;
-    margin: 20px auto;
     padding: 20px;
-    text-align: center;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
-h1{
-    font-size: 24px;
+
+form {
     margin-bottom: 20px;
 }
-input[type="text"]{
-    border-radius: 5px;
+
+#wordInput {
     padding: 10px;
-    width: 50%;
-    font-size: 16PX;
-
-
-}
-button{
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-button:hover{
-    background-color: #000;
-    transition: 0.3ms;
+
+#submitBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #0056b3;
+}
+
+#word-definition {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.example {
+    font-style: italic;
+    color: #555;
 }
